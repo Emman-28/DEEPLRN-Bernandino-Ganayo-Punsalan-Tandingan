@@ -4,13 +4,9 @@ Code and results for our paper comparing a from-scratch CNN against pretrained R
 
 **Authors:** Bernandino, Ganayo, Punsalan, Tandingan
 
-## What's in this repo
-
-- `FungAI_Final.ipynb` — the complete notebook. Running it top to bottom reproduces every table and figure in the paper.
-
 ## Quick start
 
-1. Open `FungAI_Final.ipynb` in Google Colab.
+1. [Open in Google Colab](https://drive.google.com/file/d/1bX_00_us3Tm95JCiWKGR3Vn7o4rgRXq8/view?usp=sharing)
 2. **Runtime → Change runtime type → T4 GPU.**
 3. **Runtime → Run all.**
 
@@ -78,17 +74,6 @@ torch, torchvision
 scikit-learn
 pytorch-grad-cam
 pandas, numpy, matplotlib, seaborn
-```
-
-No `requirements.txt` is needed for Colab; if running locally, install the above via pip and ensure a CUDA-capable GPU is available (the notebook falls back to CPU automatically but will be substantially slower).
-
-## Citation
-
-If you use this code, please cite:
-```
-Bernandino, Ganayo, Punsalan, Tandingan. "FungAI: A Controlled Comparison of
-From-Scratch and Transfer-Learned Convolutional Networks for Microscopic
-Fungi Classification." 2026.
 ```
 
 ## Dataset
